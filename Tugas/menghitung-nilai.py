@@ -6,13 +6,13 @@ nilai = int (input ("Masukkan nilai anda = "))
 
 #proses
 print ("==========================================")
-if nilai >=90 and nilai ==100:
+if nilai < 101 and nilai > 89:
   ket="Istimewa"
-elif nilai >=70 and nilai ==89:
+elif nilai < 90 and nilai > 69:
   ket="Sangat bagus"
-elif nilai >=60 and nilai==69:
+elif nilai < 70 and nilai > 59:
   ket="Cukup"
-elif nilai <60:
+else :
   ket="Gagal"
 
 #output
